@@ -14,3 +14,24 @@ img{
     text-align: center;
 
 }
+.navbar{
+    text-align:right;
+}
+.link{
+    padding: 10px 5px;
+    display: inline-block;
+    font-size: 14;
+    color: gray;
+}
+.bubble{
+    display: inline-block;
+    padding: 10px 10px;
+    margin: 5px 8px;
+    width: 15px;
+    height: 15px;
+    border: 3px;
+    border-radius: 50%;
+    background: darkred;
+    text-align: center;
+
+}
