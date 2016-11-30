@@ -1,0 +1,16 @@
+img{
+    display: block;
+    margin:auto;
+    width : 20%;
+    padding: 10vh;
+}
+
+[name="searchbar"]{
+    display: block;
+    margin: auto;
+    width: 30%;
+}
+.buttons{
+    text-align: center;
+
+}
