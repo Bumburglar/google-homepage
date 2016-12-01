@@ -1,17 +1,26 @@
+<!DOCTYPE html>
 <html>
-    <link rel="stylesheet" href="style.css">
-    <div class=navbar>
-        <span class="link">Gmail</span>
-        <span class="link">Images</span>
-        <span class="bubble">1</span>
-        <span class="bubble" style="background: green;">G</span>
-    </div>
-    <img src="img/google_2015_logo_detail.png"/>
-    <form>
-        <input type="text" name="searchbar">
-    </form>
-    <div class="buttons"> 
-        <button type="button">Google Search</button>
-        <button type="button">I'm Feeling Lucky</button>
-    </div>
+    <body>
+        <link rel="stylesheet" href="style.css">
+        <div class=navbar>
+            <span class="link">Gmail</span>
+            <span class="link">Images</span>
+            <span class="bubble">1</span>
+            <span class="bubble" style="background: green;">G</span>
+        </div>
+        <img src="img/google_2015_logo_detail.png"/>
+        <form>
+            <input type="text" name="searchbar" id="textbox"/>
+        <div class="buttons"> 
+            <button type="button" onclick="setVal();">Google Search</button>
+            <button type="button" onclick="setVal();">I'm Feeling Lucky</button>
+        </div>
+        </form>
+        <script type="text/javascript">
+            function setVal(){
+                document.getElementById("textbox").value = "I don't actually work..";
+            }
+        </script>
+        </body>
 </html>
+    

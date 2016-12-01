@@ -14,6 +14,9 @@ img{
     text-align: center;
 
 }
+button{
+    margin: 20px 5px;
+}
 .navbar{
     text-align:right;
 }
@@ -33,5 +36,6 @@ img{
     border-radius: 50%;
     background: darkred;
     text-align: center;
+    color: white;
 
 }
